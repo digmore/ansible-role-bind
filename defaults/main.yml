@@ -31,6 +31,9 @@ bind_allow_query:
 # OFF.
 bind_recursion: false
 
+# List of servers to try off-site resolution against first
+bind_forwarders: []
+
 # DNS round robin order (random or cyclic)
 bind_rrset_order: "random"
 
